@@ -6,19 +6,28 @@
     <title>Document</title>
     <link rel="stylesheet" href="./css/app.css">
 
-    <script src="./js/app.js" defer></script>
+    <!-- <script src="./js/app.js" defer></script> -->
+    <script src="./js/operation.js" defer></script>
 </head>
 <body>
     
     <h1>Hello World! This is my first html file.</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis provident rem sapiente exercitationem incidunt labore repudiandae pariatur reiciendis suscipit hic. Blanditiis illum perferendis in molestiae ipsam, deleniti repudiandae amet ratione.
-    Exercitationem facere fugit labore perferendis mollitia minima tenetur, totam odio ducimus rerum iure quo itaque magni sapiente delectus voluptates alias. Praesentium, quisquam adipisci animi corporis laudantium totam culpa est voluptatibus.
-    </p>
-    <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta reiciendis explicabo harum dicta. Modi deleniti dignissimos esse temporibus blanditiis, veritatis voluptatum exercitationem reiciendis veniam? Quibusdam, voluptatibus in. Delectus, labore reiciendis.
-    </p>
+<!--     <button onclick="alert('i am inline btn!')">Click meee</button> -->
 
-    <button onclick="alert('i am inline btn!')">Click meee</button>
+    <input type="number" id="a" />
+    
+    <select id="operator">
+      <option value="+">+</option>
+      <option value="-">-</option>
+      <option value="*">*</option>
+      <option value="/">/</option>
+    </select>
+
+    <input type="number" id="b" />
+
+    <button>=</button>
+    
+    <span id="result"></span>
     
     
 </body>
